@@ -10,10 +10,10 @@ import re
 
 from django.utils import timezone
 from modelcluster.fields import ParentalKey
-from wagtail.contrib.wagtailroutablepage.models import RoutablePageMixin, route
-from wagtail.wagtailadmin.edit_handlers import FieldPanel, InlinePanel
-from wagtail.wagtailcore.fields import RichTextField
-from wagtail.wagtailcore.models import Page
+from wagtail.contrib.routable_page.models import RoutablePageMixin, route
+from wagtail.admin.edit_handlers import FieldPanel, InlinePanel
+from wagtail.core.fields import RichTextField
+from wagtail.core.models import Page
 
 from wagtail_events import abstract_models as abstracts
 from wagtail_events import date_filters
